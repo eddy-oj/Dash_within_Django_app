@@ -1,0 +1,23 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+<table style='width: 1000px'>
+
+    <tr>
+        <th>ID</th>
+        <th>Author Name</th>
+        <th>Link</th>
+
+    {% for author in authors %}
+
+      <tr>
+        <td> {{ author.id }} </td>
+        <td> {{ author.name }} </td>
+        <td>  <a href="{% url 'dash_within_django:dash-django-page' author.id %}">Go to Dash </a>  </td>
+      </tr>
+    {% endfor %}
+
+</table>
+
+{% endblock %}

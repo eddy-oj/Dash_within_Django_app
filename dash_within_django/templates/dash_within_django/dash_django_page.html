@@ -1,0 +1,23 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+      <br>
+      <h4>About Author: {{author.name}} </h4>
+
+      <p>Cupcake ipsum dolor sit amet tootsie roll lemon drops. Marzipan gummi bears wafer. Jujubes topping sesame snaps oat cake gummies. Tootsie roll tootsie roll jelly-o dessert croissant</p> <br>
+
+      <a href="{% url 'dash_within_django:index' %}">Go Back</a>  </td>
+
+      <div style="border:1px solid black; padding:10px;">
+          <div>
+
+            <P>I am Dash dashboard within a django context </p>
+
+            {{ dash_content | safe}}
+
+         </div>
+
+      </div>
+
+{% endblock %}
