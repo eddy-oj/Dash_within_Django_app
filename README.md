@@ -1,4 +1,4 @@
-"# Dash_within_Django_app" 
+# Dash_within_Django_app
 
 This is an extension of ead’s and nedned’s code (thank you both very much!).
 
