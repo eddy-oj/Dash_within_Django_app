@@ -1,6 +1,16 @@
-# Dash_within_Django_app
+Hi all,
 
-This is an extension of ead’s and nedned’s code (thank you both very much!).
+I have produced an extension to ead’s and nedned’s code (thank you both very much!).
+
+The package versions I used are:
+
+- Python 3.6.5
+- Django 2.0.2
+- dash 0.21.1
+- dash-core-components 0.22.1 
+- dash-html-components 0.10.1                  
+- dash-renderer 0.12.1
+- numpy 1.14.3
 
 The key differences are outlined below:
 
